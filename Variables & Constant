@@ -1,0 +1,19 @@
+// a. Ask the user for their name and a number.
+
+const userName = prompt("Please enter your name: ");
+const userNumber = parseFloat(prompt("Please enter a number: "));
+
+// b. Create a constant BASE_NUMBER of your choice.
+const BASE_NUMBER = 10;
+
+const sum = BASE_NUMBER + userNumber;
+const difference = BASE_NUMBER - userNumber;
+const product = BASE_NUMBER * userNumber;
+const quotient = (BASE_NUMBER / userNumber).toFixed(2); // format to 2 decimal places
+
+// c. Calculate the sum, difference, product, and quotient between BASE_NUMBER and the user's number, and log the results.
+console.log(`Sum: ${sum}`);
+console.log(`Difference: ${difference}`);
+console.log(`Product: ${product}`);
+console.log(`Quotient: ${quotient}`);
+
