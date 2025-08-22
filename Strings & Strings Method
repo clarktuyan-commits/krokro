@@ -1,0 +1,9 @@
+// a. Ask the user for a short sentence.
+const sentence = prompt("Please enter a short sentence:");
+
+// b. Convert it to uppercase and lowercase.
+const uppercaseSentence = sentence.toUpperCase();
+const lowercaseSentence = sentence.toLowerCase();
+
+console.log(`Uppercase: ${uppercaseSentence}`);
+console.log(`Lowercase: ${lowercaseSentence}`);
