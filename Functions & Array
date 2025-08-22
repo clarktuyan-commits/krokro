@@ -1,0 +1,18 @@
+const userName = prompt("Please enter your name:");
+
+// a. Create a function greetUser(name) that prints "Hello, [name]!"
+function greetUser(name) {
+  console.log(`Hello, ${name}!`);
+}
+
+greetUser(userName); 
+
+// b. Ask the user to input 3 favorite fruits into an array and display it.
+const fruits = [];
+for (let i = 0; i < 3; i++) {
+  const fruit = prompt(`Please enter your favorite fruit ${i + 1}:`);
+  fruits.push(fruit);
+}
+
+console.log("Your favorite fruits are:");
+console.log(fruits);
