@@ -1,0 +1,14 @@
+// a. Check if the user's number is positive or negative using an if statement.
+const userNumberCheck = parseFloat(prompt("Please enter a number to check: "));
+
+if (userNumberCheck > 0) {
+  console.log("The number is positive. ");
+} else if (userNumberCheck < 0) {
+  console.log("The number is negative. ");
+} else {
+  console.log("The number is zero. ");
+}
+
+// b. Do the same using a ternary operator.
+const result = userNumberCheck > 0 ? "Positive" : userNumberCheck < 0 ? "Negative" : "Zero";
+console.log(`The number is ${result}.`);
